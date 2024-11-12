@@ -57,6 +57,7 @@ body {
     font-weight: 500;
 }
 
+}
 .cartao__conteudo__resposta p {
     color: var(--card-back-color);
     font-weight: 700;
@@ -74,7 +75,9 @@ body {
     width: 100%;
     box-sizing: border-box;
 }
-
+.cartao.active .cartao__conteudo__pergunta {
+    display: none; 
+}
 .cartao__conteudo__resposta {
     transform: rotateY(180deg);
     background-color: rgba(0, 244, 191, 0.2);
